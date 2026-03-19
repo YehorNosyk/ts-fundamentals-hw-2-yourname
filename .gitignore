@@ -12,11 +12,6 @@ dist
 dist-ssr
 *.local
 
-git rm -r --cached node_modules
-git rm -r --cached dist
-git rm -r --cached dist-ssr
-git commit -m "Remove ignored files"
-git push
 
 # Editor directories and files
 .vscode/*
